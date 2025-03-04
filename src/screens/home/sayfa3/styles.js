@@ -1,0 +1,122 @@
+import {StyleSheet} from 'react-native';
+
+export default StyleSheet.create({
+  background: {
+    backgroundColor: '#79BDEA',
+    flex: 1,
+  },
+  menustyle: {
+    width: 30,
+    height: 30,
+    tintColor: '#ffff',
+  },
+  header: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    marginTop: 15,
+  },
+  cursetxt: {
+    color: '#ffff',
+    fontSize: 20,
+    fontWeight: 'bold',
+  },
+  translatetxt: {
+    color: '#ffff',
+    fontWeight: 'condensedBold',
+    fontSize: 40,
+  },
+  translatest: {
+    justifyContent: 'center',
+    alignItems: 'center',
+    marginTop: 50,
+  },
+  translatetextback: {
+    backgroundColor: '#ffff',
+    padding: 20,
+    width: 350,
+    height: 350,
+    borderRadius: 25,
+    shadowOffset: {height: 10, width: 10},
+    elevation: 25,
+    shadowColor: 'black',
+    shadowOpacity: 0.8,
+  },
+  middleblock: {
+    justifyContent: 'center',
+    flexDirection: 'row',
+    alignItems: 'center',
+    marginTop: 35,
+  },
+  middle: {
+    backgroundColor: '#ffff',
+    padding: 25,
+    width: '100%',
+    height: 600,
+    borderTopLeftRadius: 10,
+    borderTopRightRadius: 10,
+    position: 'absolute',
+    marginTop: 130,
+  },
+  textstyle: {
+    width: 25,
+    height: 25,
+  },
+  buenotxt: {
+    fontWeight: 'bold',
+    color: 'black',
+    fontSize: 35,
+  },
+  dots: {
+    backgroundColor: 'grey',
+    padding: 2,
+    borderRadius: 20,
+    width: 15,
+    height: 15,
+  },
+  dotspos: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    marginTop: 250,
+    marginHorizontal: 120,
+  },
+  dotsblue: {
+    backgroundColor: 'blue',
+    padding: 2,
+    borderRadius: 20,
+    width: 15,
+    height: 15,
+  },
+  answer: {
+    backgroundColor: '#ffff',
+    padding: 10,
+    width: 350,
+    height: 120,
+    shadowOffset: {width: 10, height: 10},
+    elevation: 10,
+    shadowColor: 'black',
+    opacity: 1,
+    borderRadius: 15,
+  },
+  answertext: {
+    fontWeight: 'semibold',
+    fontSize: 25,
+    color: 'grey',
+  },
+  submitbar: {
+    backgroundColor: '#79BDEA',
+    width: '80%',
+    height: '32%',
+    borderRadius: 30,
+  },
+  submitpos: {
+    alignItems: 'center',
+  },
+  submittext: {
+    textAlign: 'center',
+    fontWeight: 'bold',
+    color: '#ffff',
+    fontSize: 25,
+  },
+});
